@@ -1,0 +1,60 @@
+/* Body */
+body{
+background-image: url(../img/light.jpg);
+background-size: cover;
+color: black;
+
+transition: 1s;
+}
+
+
+/* Btn */
+
+#day{
+    height: 35pt;
+    width: 35pt;
+    border-radius: 5px;
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+#day:hover{
+    color: darkorange;
+    border-color: darkorange;
+    transform: translateY(5px);
+}
+
+#night{
+    height: 35pt;
+    width: 35pt;
+    border-radius: 5px;
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+#night:hover{
+    color: darkcyan;
+    border-color: darkcyan;
+    transform: translateY(5px);
+}
+
+/* Anim */
+
+#anim{
+    animation: inicio 1s forwards;
+
+}
+
+@keyframes inicio {
+    0%{
+        /* opacity: 0%; */
+        transform: translateY(0px);
+    }
+
+    100%{
+        /* opacity: 100%; */
+        transform: translateY(25px);
+    }
+
+}
+
